@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+.app {
+  padding-top: 3rem;
+  padding-bottom: 30rem;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container .formdiv {
+  background-color: #fefefe;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
+  border: 1px solid rgb(205, 207, 205);
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding-bottom: 4rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span.impstar {
+  color: red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+}
+.welcome {
+  margin-top: 2rem;
+}
+.welcome p {
+  line-height: 10px;
+  margin-bottom: 2.5rem;
+}
+.welcome h5 span {
+  color: rgb(184, 127, 22);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.heading {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 1rem;
+  margin-left: -4rem;
+  margin-top: -1rem;
+  margin-right: -3rem;
+  background-color: rgb(219, 214, 243);
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
 }
+.heading span {
+  font-size: 2rem;
+  margin-right: 3px;
+  align-items: center;
 
-.App-link {
-  color: #61dafb;
+  color: rgb(20, 71, 119);
+  margin-left: 1.5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.submit {
+  background-color: rgb(121, 84, 155);
+  outline: none;
+  width: 100px;
+  margin-left: 20px;
+}
+.back {
+  outline: none;
+  width: 100px;
+  border-color: none;
+}
+.ppsing {
+  display: flex;
+  float: right;
+  list-style: none;
+}
+.ppsing li {
+  margin-left: 10px;
+}
+.ppsing a {
+  color: black;
+}
+.heading h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.note span {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.note {
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+}
+.hr {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+Button.back {
+  border: 1px solid black;
+  margin-left: 2rem;
+}
+@media (max-width: 720px) {
+  .container .formdiv {
+    margin: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .welcome p {
+    line-height: 20px;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 720px) {
+  .container .formdiv {
+    margin: 0;
+  }
+  .welcome p {
+    line-height: 20px;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 1120px) {
+  .container .formdiv {
+    margin: auto;
+  }
+  .welcome p {
+    line-height: 20px;
+    margin-bottom: 2.5rem;
   }
 }
